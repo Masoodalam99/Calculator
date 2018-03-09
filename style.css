@@ -1,0 +1,86 @@
+body{
+    background-color: black;
+    color: white;
+    font-size: 15px;
+}
+img{
+    float: right;
+    margin-right: 145px;
+    margin-top: 122px;
+}
+#textbox{
+    text-align: right;
+    width: 320px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-left: 4px;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 80px;
+    font-size: 40px;
+    
+    
+
+}
+#container{
+    border: 2px solid white;
+    width: 350px;
+    height: 555px;
+    border-radius: 10px;
+    background-color: red;
+    
+}
+.btn{
+    width: 80px;
+    height: 80px;
+    font-size: 25px;
+    background-color: red;
+    border: 0px;
+    color: white;
+}
+.btnac{
+width: 80px;
+height: 80px;
+font-size: 25px;
+background-color: red;
+border: 0px;
+color: white;
+
+}
+.btnb{
+    width: 80px;
+    height: 80px;
+    font-size:25px;
+    background-color: red;
+    border: 0px;
+    color: white;
+
+}
+.btn:hover{
+    border: 0px solid lightgray;
+    background-color: rgba(211, 211, 211, 0.699);
+    color: white;
+    border-radius: 100px;
+}
+.btnac:hover{
+    border: 0px solid rgba(255, 0, 0, 0.61);
+    background-color: black;
+    border-radius: 100px;
+    color: white;
+
+}
+.btnb:hover{
+    border: 0px solid rgb(255, 255, 0);
+    background-color: rgba(0, 0, 0, 0.473);
+    border-radius: 100px;
+    color: white;
+
+}
+#numpad{
+    margin-top: 15px;
+    
+}
+h3{
+    margin-top:5px;
+    float: right;
+}

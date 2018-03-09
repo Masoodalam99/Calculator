@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+        <h1>Calculator Using JavaScript </h1>
+        <img src="q.jpg" alt="Q Nikala Mujhy">
+        <div id="container">
+            <form name="form">
+                    <input type="textbox" id="textbox" name="text">
+                    <br>
+                <div id="numpad">
+                    <input class="btn" type="button" name="brl" value="(" onclick="display(this.value)">
+                    <input class="btn" type="button" name="brr" value=")" onclick="display(this.value)">
+                    <input class="btnac" type="button"  value="AC" onclick="ac()">
+                    <input class="btnb" type="button"  value="C" onclick="backspace()">
+                    <br>
+                    <input class="btn" type="button" name="btn9" value="9" onclick="display(this.value)">
+                    <input class="btn" type="button" name="btn8" value="8" onclick="display(this.value)">
+                    <input class="btn" type="button" name="btn7" value="7" onclick="display(this.value)">
+                    <input class="btn" type="button" name="btnd" value="/" onclick="display(this.value)">
+                    <br>
+                    <input class="btn" type="button" name="btn6" value="6" onclick="display(this.value)">
+                    <input class="btn" type="button" name="btn5" value="5" onclick="display(this.value)">
+                    <input class="btn" type="button" name="btn4" value="4" onclick="display(this.value)">
+                    <input class="btn" type="button" name="btnm" value="*" onclick="display(this.value)">
+                    <br>
+                    <input class="btn" type="button" name="btn3" value="3" onclick="display(this.value)">
+                    <input class="btn" type="button" name="btn3" value="3" onclick="display(this.value)">
+                    <input class="btn" type="button" name="btn1" value="1" onclick="display(this.value)"> 
+                    <input class="btn" type="button" name="btns" value="-" onclick="display(this.value)">
+                    <br>
+                    <input class="btn" type="button" name="btndot" value="." onclick="display(this.value)">
+                    <input class="btn" type="button" name="btn0" value="0" onclick="display(this.value)">
+                    <input class="btn" type="button" name="btne" value="=" onclick="text.value=eval(text.value)">
+                    <input class="btn" type="button" name="btna" value="+" onclick="display(this.value)">
+                </div>
+            </form>
+        </div>
+</center>
+<h3>Designed By Masood Alam</h3>
+</body>
+<script src="app.js"></script>
+</html>
